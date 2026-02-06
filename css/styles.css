@@ -1,11 +1,15 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
+  line-height: normal;
+  letter-spacing: normal;
+}
+ul{
+  list-style-type: none;
 }
 .logo{
 color: #2E2F42;
 text-decoration: none;
-font: hervetica, sans-serif;
 }
 .weird{
 color: #4D5AE5;
@@ -16,14 +20,12 @@ text-decoration: none;
 }
 .nav-link, .address-contact{
 text-decoration: none;
-color: #000000;
+color: #2E2F42;
+font-style: normal;
 }
-.nav-link:hover, .address-contact:hover{
+.nav-link:hover, .address-contact:hover nav-link:focus, .address-contact:focus{
 cursor: pointer;
 color: pink;
-}
-.header ul{
-  list-style-type: none;
 }
 .hero-section {
   background-color: #2E2F42;
@@ -36,22 +38,15 @@ color: pink;
   background-color: #4D5AE5;
   color: #FFFFFF;
   cursor: pointer;
-  display: flex;
 }
-.hero-button:hover{
+.hero-button:hover, .hero-button:focus {
   background-color: #1e3a8a;
-}
-.features ul{
-  list-style-type: none;
 }
 .team{
   background-color: #F5F6FA;
 }
 .team li{
   background-color: #FFFFFF;
-}
-.team ul{
-  list-style-type: none;
 }
 .team h2 {
   background-color: #F5F6FA;
@@ -67,9 +62,6 @@ color: pink;
 }
 .team img{
   align-items: flex-start;
-}
-.portfolio ul{
-  list-style-type: none;
 }
 .footer{
   background-color: #2E2F42;
