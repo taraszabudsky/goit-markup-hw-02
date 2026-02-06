@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
+.logo{
+color: #2E2F42;
+text-decoration: none;
+font: hervetica, sans-serif;
+}
+.weird{
+color: #4D5AE5;
+}
+.logo-footer{
+color: #F4F4FD;
+text-decoration: none;
+}
+.nav-link, .address-contact{
+text-decoration: none;
+color: #000000;
+}
+.nav-link:hover, .address-contact:hover{
+cursor: pointer;
+color: pink;
+}
+.header ul{
+  list-style-type: none;
+}
+.hero-section {
+  background-color: #2E2F42;
+  text-align: center;
+}
+.hero-title {
+  color: #FFFFFF;
+}
+.hero-button {
+  background-color: #4D5AE5;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+}
+.hero-button:hover{
+  background-color: #1e3a8a;
+}
+.features ul{
+  list-style-type: none;
+}
+.team{
+  background-color: #F5F6FA;
+}
+.team li{
+  background-color: #FFFFFF;
+}
+.team ul{
+  list-style-type: none;
+}
+.team h2 {
+  background-color: #F5F6FA;
+  text-align: center;
+}
+.team h3 {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.team p{
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.team img{
+  align-items: flex-start;
+}
+.portfolio ul{
+  list-style-type: none;
+}
+.footer{
+  background-color: #2E2F42;
+  color: #FFFFFF;
+  font-size: 16px;
+}
