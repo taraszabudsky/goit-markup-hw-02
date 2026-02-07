@@ -36,13 +36,13 @@ ul{
 }
 .address-contact,
 .nav-link {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  font-style: normal
+}
 }
 .nav-link:hover,
 .address-contact:hover, 
@@ -79,13 +79,12 @@ color: #404BBF;
 .team{
   background-color: #F4F4FD;
 }
-.team li{
-  background-color: #FFFFFF;
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
 }
-.team h2 {
-  background-color: #F5F6FA;
-  text-align: center;
-}
+.team li,
+.team h2,
 .team h3 {
   background-color: #FFFFFF;
   text-align: center;
