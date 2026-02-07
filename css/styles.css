@@ -1,49 +1,82 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
   color: #434455;
-  line-height: normal;
-  letter-spacing: normal;
+  line-height: 1.5;        
+  letter-spacing: 0.02em;  
 }
 ul{
   list-style-type: none;
 }
-.logo{
-color: #2E2F42;
-text-decoration: none;
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
+  text-decoration: none;
 }
-.weird{
-color: #4D5AE5;
+.logo-part {
+  color: #2E2F42;
 }
-.logo-footer{
-color: #F4F4FD;
-text-decoration: none;
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
+  text-decoration: none;
 }
-.nav-link, .address-contact{
-text-decoration: none;
-color: #2E2F42;
-font-style: normal;
+.logo-part-footer {
+  color: #F4F4FD;
 }
-.nav-link:hover, .address-contact:hover nav-link:focus, .address-contact:focus{
-cursor: pointer;
-color: pink;
+.address-contact,
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  text-decoration: none;
+}
+.nav-link:hover,
+.address-contact:hover, 
+.nav-link:focus, 
+.address-contact:focus{
+color: #404BBF;
 }
 .hero-section {
   background-color: #2E2F42;
   text-align: center;
 }
 .hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #FFFFFF;
+  text-align: center;
 }
 .hero-button {
-  background-color: #4D5AE5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #FFFFFF;
+  background-color: #4D5AE5;
   cursor: pointer;
 }
-.hero-button:hover, .hero-button:focus {
-  background-color: #1e3a8a;
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404BBF;
 }
 .team{
-  background-color: #F5F6FA;
+  background-color: #F4F4FD;
 }
 .team li{
   background-color: #FFFFFF;
