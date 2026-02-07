@@ -15,11 +15,11 @@ ul{
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #2E2F42;
   text-decoration: none;
 }
 .logo-part {
-  color: #2E2F42;
+  color: #4D5AE5;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
@@ -28,11 +28,11 @@ ul{
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #F4F4FD;
   text-decoration: none;
 }
 .logo-part-footer {
-  color: #F4F4FD;
+  color: #4D5AE5;
 }
 .address-contact,
 .nav-link {
@@ -40,8 +40,9 @@ ul{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #434455;
   text-decoration: none;
+  font-style: normal
 }
 .nav-link:hover,
 .address-contact:hover, 
@@ -88,16 +89,20 @@ color: #404BBF;
 .team h3 {
   background-color: #FFFFFF;
   text-align: center;
+  font-size: 20px;
+  font-weight: 500;
 }
 .team p{
   background-color: #FFFFFF;
   text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
 .team img{
   align-items: flex-start;
 }
 .footer{
   background-color: #2E2F42;
-  color: #FFFFFF;
+  color: #f4f4fd;
   font-size: 16px;
 }
