@@ -91,20 +91,61 @@ color: #404BBF;
 .team-title {
   font-size: 36px;
   font-weight: 700;
-}
-.team li,
-.team h2,
-.team h3 {
-  background-color: #FFFFFF;
   text-align: center;
-  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2%;
+}
+.team h2{
+  font-weight: 700;
+  font-size: 36px;
+  color: #2E2F42;
+  text-align: center;
+}
+.team h3 {
   font-weight: 500;
+  font-size: 20px;
+  color: #2E2F42;
+  text-align: center;
+  background-color: #FFFFFF;
 }
 .team p{
   background-color: #FFFFFF;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+}
+.team li{
+background-color: #F4F4FD;
+}
+.feautures h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.feautures p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.portfolio h2{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+}
+.portfoli h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.portfolio p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 .footer{
   background-color: #2E2F42;
