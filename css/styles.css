@@ -95,7 +95,7 @@ color: #404BBF;
   text-align: center;
   color: #2E2F42;
 }
-.team h2{
+.team-title{
   font-weight: 700;
   font-size: 36px;
   color: #2E2F42;
@@ -107,20 +107,28 @@ color: #404BBF;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  text-align: center;
 }
 .team p {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .team li {
   background-color: #FFFFFF;
 }
-.feautures h3
-.feautures p{
+.features h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 2%;
+  color: #2E2F42;
+}
+.features p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
 }
 .portfolio h2 {
   font-size: 36px;
@@ -134,6 +142,7 @@ color: #404BBF;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 2%;
+  color: #2E2F42;
 }
 .portfolio p {
   line-height: 1.5;
