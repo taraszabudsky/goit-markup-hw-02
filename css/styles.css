@@ -120,14 +120,14 @@ color: #404BBF;
 .features h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2E2F42;
 }
 .features p {
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .portfolio h2 {
@@ -140,8 +140,8 @@ color: #404BBF;
 .portfolio h3{
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2E2F42;
 }
 .portfolio p {
