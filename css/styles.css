@@ -34,19 +34,28 @@ ul{
 .logo-part-footer {
   color: #4D5AE5;
 }
-.address-contact,
 .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  text-decoration: none;
+}
+.address-contact{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-}
+  font-style: normal;
 }
 .nav-link:hover,
+.nav-link:focus{
+color: #404BBF;
+}
 .address-contact:hover, 
-.nav-link:focus, 
 .address-contact:focus{
 color: #404BBF;
 }
@@ -96,9 +105,6 @@ color: #404BBF;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
-}
-.team img{
-  align-items: flex-start;
 }
 .footer{
   background-color: #2E2F42;
