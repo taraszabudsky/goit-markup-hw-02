@@ -90,10 +90,10 @@ color: #404BBF;
 }
 .team-title {
   font-size: 36px;
-  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
-  line-height: 40px;
-  letter-spacing: 2%;
+  color: #2E2F42;
 }
 .team h2{
   font-weight: 700;
@@ -104,48 +104,40 @@ color: #404BBF;
 .team h3 {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2E2F42;
-  text-align: center;
+}
+.team p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.team li {
   background-color: #FFFFFF;
 }
-.team p{
-  background-color: #FFFFFF;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-}
-.team li{
-background-color: #F4F4FD;
-}
-.feautures h3{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
+.feautures h3
 .feautures p{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
-.portfolio h2{
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 2%;
-}
-.portfoli h3{
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 2%;
 }
-.portfolio p{
-  font-weight: 400;
-  font-size: 16px;
+.portfolio h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2E2F42;
+}
+.portfolio h3{
+  font-weight: 500;
+  font-size: 20px;
   line-height: 24px;
   letter-spacing: 2%;
+}
+.portfolio p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer{
   background-color: #2E2F42;
